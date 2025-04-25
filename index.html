@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang Cá Nhân - TRAN PHUC DUY</title>
+    <title>Trang Cá Nhân - Trần Phúc Duy</title>
 
     <!-- Link tới Tailwind CSS -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
@@ -20,22 +20,35 @@
             font-weight: 600;
         }
 
-        .social-icons a {
-            margin: 0 10px;
+        .social-tags a {
+            background-color: #fff;
+            color: #4CAF50;
+            padding: 8px 12px;
+            border-radius: 20px;
+            margin: 5px;
+            display: inline-block;
+            text-decoration: none;
+            font-weight: 600;
         }
 
-        .social-icons a i {
-            font-size: 24px;
+        .social-tags a:hover {
+            background-color: #45a049;
+            color: white;
         }
     </style>
 </head>
 
 <body class="bg-gray-100">
 
-    <!-- Hero Section -->
+    <!-- Hero Section với các tag mạng xã hội lên đầu -->
     <section class="hero text-center py-20">
+        <div class="social-tags">
+            <a href="https://www.facebook.com/duy.tranphuc.9" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/nhoxmon_26/" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/in/phucduy8626/" target="_blank">LinkedIn</a>
+        </div>
         <h1>Chào mừng đến với trang cá nhân của tôi!</h1>
-        <p class="mt-4 text-lg">Lập trình viên đam mê công nghệ và sáng tạo</p>
+        <p class="mt-4 text-lg">Lập trình viên đam mê công nghệ và đồ công nghệ</p>
     </section>
 
     <!-- Giới thiệu bản thân -->
@@ -44,7 +57,7 @@
         <div class="flex justify-center">
             <div class="w-full md:w-1/2 bg-white p-6 rounded-lg shadow-lg">
                 <img src="https://via.placeholder.com/150" alt="Avatar" class="w-32 h-32 mx-auto rounded-full border-4 border-green-500">
-                <p class="text-center text-xl mt-4">Xin chào! Mình là Duy, một lập trình viên đam mê công nghệ. Mình chuyên về phát triển phần mềm, đặc biệt là C++ và JavaScript.</p>
+                <p class="text-center text-xl mt-4">Xin chào! Tui là Duy, một lập trình viên đam mê công nghệ. Mình chuyên về phát triển phần mềm, đặc biệt là C++ và JavaScript.</p>
             </div>
         </div>
     </section>
@@ -88,34 +101,4 @@
     </section>
 
     <!-- Liên hệ -->
-    <section class="container mx-auto p-8 bg-gray-100">
-        <h2 class="text-3xl font-bold text-center mb-6">Liên Hệ</h2>
-        <p class="text-lg text-center">
-            Bạn có thể liên hệ với tôi qua email: <strong>duytrcphc@gmail.com</strong>
-        </p>
-        <div class="text-center mt-6">
-            <h3 class="text-2xl font-semibold">Theo dõi tôi trên mạng xã hội</h3>
-            <div class="social-icons mt-4">
-                <a href="https://www.facebook.com/duy.tranphuc.9" target="_blank" class="text-blue-600">
-    <i class="fab fa-facebook-square"></i> Facebook
-        </a>
-        <a href="https://www.instagram.com/nhoxmon_26/" target="_blank" class="text-pink-500">
-            <i class="fab fa-instagram"></i> Instagram
-        </a>
-        <a href="https://www.linkedin.com/in/phucduy8626/" target="_blank" class="text-blue-700">
-            <i class="fab fa-linkedin"></i> LinkedIn
-        </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center py-4 bg-gray-800 text-white">
-        <p>&copy; 2025 Duy. All rights reserved.</p>
-    </footer>
-
-    <!-- Font Awesome Icons -->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-</body>
-
-</html>
+    <section class="container mx-auto p
